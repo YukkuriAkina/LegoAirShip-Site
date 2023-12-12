@@ -1,0 +1,9 @@
+body {
+    background-color: goldenrod;
+}
+h1 {
+
+    background-color: salmon;
+    border: 1px;
+    border-radius: 5px;
+}
