@@ -7,17 +7,21 @@
     <style>
 body {
     background-color: lightblue;
-    font-family: "JF16", sans-serif;
+
 }
-h1 {
+.status {
     padding: 0px 5px;
     background-color: rgb(255, 145, 132);
     border-left: 5px red solid;
+    font-family: "JF16", sans-serif;
+    color: red;
 }
-h2 {
+.syubetu {
     padding: 0px 5px;
     background-color: rgb(120, 208, 255);
     border-left: 5px rgb(0, 123, 255) solid;
+    font-family: "JF16", sans-serif;
+    color: orangered;
 }
 @font-face {
     font-family: "JF16";
@@ -30,7 +34,7 @@ h2 {
 .okuregenin {
     background-color: orange;
     border-left: 5px rgb(255, 77, 0) solid;
-    
+        font-family: "JF16", sans-serif;
 }
 .nowlocation {
     background-color: rgb(183, 255, 74);
@@ -40,14 +44,16 @@ h2 {
 .osirase {
     background-color: rgb(255, 228, 28);
     border-left: 5px rgb(255, 191, 0) solid;
+    font-family: "JF16", sans-serif;
+    color: white;
     
 }
     </style>
     <title>Document</title>
 </head>
 <body>
-    <h1>運行状態:運転見合わせ</h1>
-    <h2>種別: 行|遅れ: </h2>
+    <h1 class="status">運行状態:運転見合わせ</h1>
+    <h2 class="syubetu">種別: 行|遅れ: </h2>
     <h2 class="osirase">お知らせ:<!--ここにテンプレ--> 0:00に終点に到着します。</h3>
     <h2 class="okuregenin">遅延原因:</h2>
     <h2 class="nowlocation">現在位置:</h2>
