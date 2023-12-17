@@ -6,14 +6,18 @@
     <link rel="stylesheet" href="style.css">
     <style>
 body {
-    background-color: goldenrod;
+    background-color: lightblue;
     font-family: "JF16", sans-serif;
 }
 h1 {
-
-    background-color: salmon;
-    border: 1px;
-    border-radius: 5px;
+    padding: 0px 5px;
+    background-color: rgb(255, 145, 132);
+    border-left: 5px red solid;
+}
+h2 {
+    padding: 0px 5px;
+    background-color: rgb(120, 208, 255);
+    border-left: 5px rgb(0, 123, 255) solid;
 }
 @font-face {
     font-family: "JF16";
@@ -23,14 +27,30 @@ h1 {
     font-family: "JF24";
     src: url("JF-Dot-jiskan24.ttf") format("truetype");
 }
+.okuregenin {
+    background-color: orange;
+    border-left: 5px rgb(255, 77, 0) solid;
+    
+}
+.nowlocation {
+    background-color: rgb(183, 255, 74);
+    border-left: 5px rgb(8, 225, 0) solid;
+    
+}
+.osirase {
+    background-color: rgb(255, 228, 28);
+    border-left: 5px rgb(255, 191, 0) solid;
+    
+}
     </style>
     <title>Document</title>
 </head>
 <body>
     <h1>運行状態:運転見合わせ</h1>
-    <h3>遅れ: 種別: 行 停車駅:</h3>
-    <h4 class="okuregenin">遅延原因:</h4>
-    <h4 class="nowlocation">現在位置:</h4>
+    <h2>種別: 行|遅れ: </h2>
+    <h2 class="osirase">お知らせ:<!--ここにテンプレ--> 0:00に終点に到着します。</h3>
+    <h2 class="okuregenin">遅延原因:</h2>
+    <h2 class="nowlocation">現在位置:</h2>
 
 </body>
 </html>
